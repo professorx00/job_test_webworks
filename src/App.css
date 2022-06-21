@@ -5,11 +5,21 @@
   font-size: 42px;
   color: #1b3a61
 }
+.headerStyle1HR{
+  background-color: #1b3a61;
+  height: 15px;
+  width: 100%;
+}
 .headerStyle2{
   font-family: 'open sans';
   font-weight: bold;
   font-size: 30px;
   color: #1b3a61
+}
+.headerStyle2HR{
+  background-color: #1b3a61;
+  height: 15px;
+  width: 100%;
 }
 .headerStyle3{
   font-family: 'open sans';
@@ -101,4 +111,8 @@ p {
   font-size: 16px;
   line-height: 22pt;
   color: black;
+}
+.icon{
+  margin-left:1em;
+  margin-right: 1em;
 }

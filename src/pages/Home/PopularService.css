@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    width: 80vw;
+    justify-content: 'center';
+    align-items: flex-start;
+    margin-top: 2em;
+    flex-direction: column;
+}
+.linkContainer{
+    display: flex;
+    width:'100%';
+
+}
+.column{
+    display:flex;
+    width: 22vw;
+    margin: 2vw;
+    flex-direction: column;
+}
+.links{
+    margin-bottom: 1em;
+}

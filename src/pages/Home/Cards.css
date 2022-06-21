@@ -1,0 +1,36 @@
+.cardsContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: #CCCCCC;
+    margin-top: -5px;
+    justify-content: center;
+
+}
+.cards{
+    height: 12%;
+    width: 12%;
+    background-color: white;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+    cursor: pointer;
+
+}
+.cardIcons{
+    height: 60px
+
+}
+.cardLabel{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    margin-top: 1rem;
+}
