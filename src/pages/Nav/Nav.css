@@ -1,0 +1,102 @@
+.roboto {
+    font-family:'roboto';
+}
+.robotoSlab {
+    font-family:'roboto slab';
+}
+
+.openSans {
+    font-family:'open sans';
+}
+.navContainer{
+    background-color: white;
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rightSideNav{
+    background-color: white;
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+}
+.leftSideNav{
+    background-color: white;
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 15px
+}
+.menuButton{
+    background-color: #306BAD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1em;
+    font-family:'roboto condensed';
+    color: white;
+}
+.menuButton:hover{
+    background-color: #225089;
+}
+.menuButton:active{
+    background-color: #1b3a61;
+}
+.titleContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    height: 110px;
+    margin-left: 1em;
+}
+.siteName{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 22px;
+    letter-spacing: 0.015em;
+    color: #1B3A61;
+    margin-bottom: .5em;
+}
+.siteSolgan{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #415A7B;
+}
+.titleWordsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin:1em
+}
+.searchButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #306BAD;
+    padding: 10px;
+    width: 63px;
+    height: 63px;
+}
+.navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navButton{
+    text-decoration: none;
+    margin: 2em;
+}
