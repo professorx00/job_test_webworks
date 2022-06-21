@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderStyleOne from "./HeaderStyleOne";
+import HeaderStyleOne from "../App/HeaderStyleOne";
 export default function PopularServices() {
   return (
     <div className="container">

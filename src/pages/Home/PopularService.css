@@ -20,3 +20,29 @@
 .links{
     margin-bottom: 1em;
 }
+.publishContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:0;
+    padding:0;
+}
+.updateFlag{
+    background-color: #757575;
+    color: white;
+    font-family: 'open sans';
+    font-size: 13px;
+    text-transform: capitalize;
+    padding: .25rem;
+    margin-left: .25rem;
+    border-radius: 3px;
+
+
+}
+.publishDate{
+    margin:0;
+    padding:0;
+}
+.updateCard{
+    margin-top: 1rem;
+}
