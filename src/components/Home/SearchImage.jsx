@@ -5,19 +5,13 @@ import Button from "../Button";
 export default function SearchImage() {
   return (
     <div className="searchContainer">
-      <img src="/capitol.jpg" alt="capitol" width="99.1%" height="50%" />
       <div className="searchBox">
         <p className="statement">
           Providing independent research, analysis, and
           <br /> resources to facilitate informed policy decisions
           <br /> and administration of services
         </p>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-          }}
-        >
+        <div className="searchInputContainer">
           <input className="searchInput" placeholder="Search rfa.sc.gov" />
           <Button
             variant={"closed"}

@@ -17,7 +17,7 @@ export default function Footer() {
           src="Group 262.png"
           width="50%"
           height="50%"
-          style={{ margin: "1em", marginTop: "2em" }}
+          className="footerLogoImg"
           alt="watermark of logo"
         />
       </div>

@@ -13,9 +13,7 @@ export default function Cards() {
     <div className="cardsContainer">
       <div className="cards" onClick={handleClick}>
         <DataResearchIcon className="cardIcons" />
-        <span className="cardLabel">
-          DATA &<br /> RESEARCH
-        </span>
+        <span className="cardLabel">DATA & RESEARCH</span>
       </div>
       <div className="cards" onClick={handleClick}>
         <GeographyIcon className="cardIcons" />
@@ -27,9 +25,7 @@ export default function Cards() {
       </div>
       <div className="cards" onClick={handleClick}>
         <LegislativeIcon className="cardIcons" />
-        <span className="cardLabel">
-          LEGISLATIVE<br></br> FISCAL IMPACTS
-        </span>
+        <span className="cardLabel">LEGISLATIVE FISCAL IMPACTS</span>
       </div>
     </div>
   );

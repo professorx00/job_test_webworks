@@ -1,14 +1,352 @@
-.roboto {
-    font-family:'roboto';
+/* .navContainer{
+    background-color: white;
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.robotoSlab {
-    font-family:'roboto slab';
+.rightSideNav{
+    background-color: white;
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+}
+.leftSideNav{
+    background-color: white;
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 15px
+}
+.menuButton{
+    background-color: #306BAD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1em;
+    font-family:'roboto condensed';
+    color: white;
+}
+.menuButton:hover{
+    background-color: #225089;
+}
+.menuButton:active{
+    background-color: #1b3a61;
+}
+.titleContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    height: 110px;
+    margin-left: 1em;
+}
+.siteName{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 22px;
+    letter-spacing: 0.015em;
+    color: #1B3A61;
+    margin-bottom: .5em;
+}
+.siteSolgan{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #415A7B;
+}
+.titleWordsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin:1em
+}
+.searchInputNav{
+    height: 45px;
+    width: 65%;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 0px;
+    letter-spacing: -0.03em;
+    color: #757575;
+    padding-left: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+    
+}
+.SearchButtonNav{
+    height: 66px;
+}
+.searchButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #306BAD;
+    padding: .25em;
+    width: 63px;
+    height: 63px;
+    position: relative;
+
+
+}
+.iconButton{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63px;
+}
+.searchButtonAlt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #306BAD;
+    background-color:#306BAD ;
+    padding: .25em;
+    width: 63px;
+    height: 63px;
+    position: relative;
+}
+.navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navButton{
+    text-decoration: none;
+    margin: 2em;
+}
+.customPopover{
+    position: absolute; 
+    bottom: -100px;
+    left: -528px; 
+    z-index: 99;
+    width: 600px;
+    height:100px;
+    background-color: #306BAD ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
 }
 
-.openSans {
-    font-family:'open sans';
+.sbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 15%;
+    height: 35px;
+    color: white;
+    background-color: #0074c1;
+    border: 1px solid white;
+    text-transform: uppercase;
 }
-.navContainer{
+.sbutton:hover{
+    color: white;
+    background-color: #225089;
+    border: 1px solid #225089;
+}
+.sbutton:active{
+    color: white;
+    background-color: #1b3a61;
+    border: 1px solid #1b3a61;
+}
+.sbutton:disabled{
+    color: white;
+    background-color: #e1e5ea;
+    border: 1px solid #e1e5ea;
+} */
+
+@media only screen and (max-width: 500px) {
+   .navContainer{
+    background-color: white;
+    width: 100%;
+    margin:0;
+    padding:0;
+    flex-direction: row;
+}
+.rightSideNav{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+.leftSideNav{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 0px;
+    display: none;
+}
+.menuButton{
+    background-color: #306BAD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+    font-family:'roboto condensed';
+    color: white;
+}
+.menuButton:hover{
+    background-color: #225089;
+}
+.menuButton:active{
+    background-color: #1b3a61;
+}
+.titleContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    height: 2em;
+    margin-left: 1em;
+}
+.siteName{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: .5em;
+    line-height: 1;
+    letter-spacing: 0.015em;
+    color: #1B3A61;
+    margin-bottom: .5em;
+}
+.siteSolgan{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .5em;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #415A7B;
+}
+.titleWordsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin:1em
+}
+.searchInputNav{
+    height: 45px;
+    width: 65%;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 0px;
+    letter-spacing: -0.03em;
+    color: #757575;
+    padding-left: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+    
+}
+.SearchButtonNav{
+    height: 66px;
+}
+.searchButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #306BAD;
+    padding: .25em;
+    width: 63px;
+    height: 63px;
+    position: relative;
+
+
+}
+.iconButton{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63px;
+}
+.searchButtonAlt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #306BAD;
+    background-color:#306BAD ;
+    padding: .25em;
+    width: 63px;
+    height: 63px;
+    position: relative;
+}
+.navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navButton{
+    text-decoration: none;
+    margin: 2em;
+}
+.customPopover{
+    position: absolute; 
+    bottom: -100px;
+    left: -528px; 
+    z-index: 99;
+    width: 600px;
+    height:100px;
+    background-color: #306BAD ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 15%;
+    height: 35px;
+    color: white;
+    background-color: #0074c1;
+    border: 1px solid white;
+    text-transform: uppercase;
+}
+.sbutton:hover{
+    color: white;
+    background-color: #225089;
+    border: 1px solid #225089;
+}
+.sbutton:active{
+    color: white;
+    background-color: #1b3a61;
+    border: 1px solid #1b3a61;
+}
+.sbutton:disabled{
+    color: white;
+    background-color: #e1e5ea;
+    border: 1px solid #e1e5ea;
+}
+}
+@media only screen and (min-width: 500px) {
+    .navContainer{
     background-color: white;
     min-height: 150px;
     display: flex;
@@ -179,3 +517,522 @@
     background-color: #e1e5ea;
     border: 1px solid #e1e5ea;
 }
+}
+@media only screen and (min-width: 768px) {
+    .navContainer{
+    background-color: white;
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rightSideNav{
+    background-color: white;
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+}
+.leftSideNav{
+    background-color: white;
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 15px
+}
+.menuButton{
+    background-color: #306BAD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1em;
+    font-family:'roboto condensed';
+    color: white;
+}
+.menuButton:hover{
+    background-color: #225089;
+}
+.menuButton:active{
+    background-color: #1b3a61;
+}
+.titleContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    height: 110px;
+    margin-left: 1em;
+}
+.siteName{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 22px;
+    letter-spacing: 0.015em;
+    color: #1B3A61;
+    margin-bottom: .5em;
+}
+.siteSolgan{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #415A7B;
+}
+.titleWordsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin:1em
+}
+.searchInputNav{
+    height: 45px;
+    width: 65%;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 0px;
+    letter-spacing: -0.03em;
+    color: #757575;
+    padding-left: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+    
+}
+.SearchButtonNav{
+    height: 66px;
+}
+.searchButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #306BAD;
+    padding: .25em;
+    width: 63px;
+    height: 63px;
+    position: relative;
+
+
+}
+.iconButton{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63px;
+}
+.searchButtonAlt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #306BAD;
+    background-color:#306BAD ;
+    padding: .25em;
+    width: 63px;
+    height: 63px;
+    position: relative;
+}
+.navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navButton{
+    text-decoration: none;
+    margin: 2em;
+}
+.customPopover{
+    position: absolute; 
+    bottom: -100px;
+    left: -528px; 
+    z-index: 99;
+    width: 600px;
+    height:100px;
+    background-color: #306BAD ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 15%;
+    height: 35px;
+    color: white;
+    background-color: #0074c1;
+    border: 1px solid white;
+    text-transform: uppercase;
+}
+.sbutton:hover{
+    color: white;
+    background-color: #225089;
+    border: 1px solid #225089;
+}
+.sbutton:active{
+    color: white;
+    background-color: #1b3a61;
+    border: 1px solid #1b3a61;
+}
+.sbutton:disabled{
+    color: white;
+    background-color: #e1e5ea;
+    border: 1px solid #e1e5ea;
+}
+}
+@media only screen and (min-width: 992px) {
+    .navContainer{
+    background-color: white;
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rightSideNav{
+    background-color: white;
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+}
+.leftSideNav{
+    background-color: white;
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 15px
+}
+.menuButton{
+    background-color: #306BAD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1em;
+    font-family:'roboto condensed';
+    color: white;
+}
+.menuButton:hover{
+    background-color: #225089;
+}
+.menuButton:active{
+    background-color: #1b3a61;
+}
+.titleContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    height: 110px;
+    margin-left: 1em;
+}
+.siteName{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 22px;
+    letter-spacing: 0.015em;
+    color: #1B3A61;
+    margin-bottom: .5em;
+}
+.siteSolgan{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #415A7B;
+}
+.titleWordsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin:1em
+}
+.searchInputNav{
+    height: 45px;
+    width: 65%;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 0px;
+    letter-spacing: -0.03em;
+    color: #757575;
+    padding-left: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+    
+}
+.SearchButtonNav{
+    height: 66px;
+}
+.searchButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #306BAD;
+    padding: .25em;
+    width: 63px;
+    height: 63px;
+    position: relative;
+
+
+}
+.iconButton{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63px;
+}
+.searchButtonAlt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #306BAD;
+    background-color:#306BAD ;
+    padding: .25em;
+    width: 63px;
+    height: 63px;
+    position: relative;
+}
+.navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navButton{
+    text-decoration: none;
+    margin: 2em;
+}
+.customPopover{
+    position: absolute; 
+    bottom: -100px;
+    left: -528px; 
+    z-index: 99;
+    width: 600px;
+    height:100px;
+    background-color: #306BAD ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 15%;
+    height: 35px;
+    color: white;
+    background-color: #0074c1;
+    border: 1px solid white;
+    text-transform: uppercase;
+}
+.sbutton:hover{
+    color: white;
+    background-color: #225089;
+    border: 1px solid #225089;
+}
+.sbutton:active{
+    color: white;
+    background-color: #1b3a61;
+    border: 1px solid #1b3a61;
+}
+.sbutton:disabled{
+    color: white;
+    background-color: #e1e5ea;
+    border: 1px solid #e1e5ea;
+}
+}
+@media only screen and (min-width: 1200px) {
+.navContainer{
+    background-color: white;
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rightSideNav{
+    background-color: white;
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+}
+.leftSideNav{
+    background-color: white;
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 15px
+}
+.menuButton{
+    background-color: #306BAD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1em;
+    font-family:'roboto condensed';
+    color: white;
+}
+.menuButton:hover{
+    background-color: #225089;
+}
+.menuButton:active{
+    background-color: #1b3a61;
+}
+.titleContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    height: 110px;
+    margin-left: 1em;
+}
+.siteName{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 22px;
+    letter-spacing: 0.015em;
+    color: #1B3A61;
+    margin-bottom: .5em;
+}
+.siteSolgan{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #415A7B;
+}
+.titleWordsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin:1em
+}
+.searchInputNav{
+    height: 45px;
+    width: 65%;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 0px;
+    letter-spacing: -0.03em;
+    color: #757575;
+    padding-left: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+    
+}
+.SearchButtonNav{
+    height: 66px;
+}
+.searchButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #306BAD;
+    padding: .25em;
+    width: 63px;
+    height: 63px;
+    position: relative;
+
+
+}
+.iconButton{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63px;
+}
+.searchButtonAlt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #306BAD;
+    background-color:#306BAD ;
+    padding: .25em;
+    width: 63px;
+    height: 63px;
+    position: relative;
+}
+.navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navButton{
+    text-decoration: none;
+    margin: 2em;
+}
+.customPopover{
+    position: absolute; 
+    bottom: -100px;
+    left: -528px; 
+    z-index: 99;
+    width: 600px;
+    height:100px;
+    background-color: #306BAD ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 15%;
+    height: 35px;
+    color: white;
+    background-color: #0074c1;
+    border: 1px solid white;
+    text-transform: uppercase;
+}
+.sbutton:hover{
+    color: white;
+    background-color: #225089;
+    border: 1px solid #225089;
+}
+.sbutton:active{
+    color: white;
+    background-color: #1b3a61;
+    border: 1px solid #1b3a61;
+}
+.sbutton:disabled{
+    color: white;
+    background-color: #e1e5ea;
+    border: 1px solid #e1e5ea;
+}}

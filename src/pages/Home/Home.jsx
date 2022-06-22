@@ -16,7 +16,7 @@ import Footer from "../../components/Home/Footer";
 export default function Home() {
   const { menu } = useSelector((state) => state.ui);
   return (
-    <div style={{ position: "relative" }}>
+    <div className="homeContainer">
       {menu ? <Menu /> : null}
       <SearchImage />
       <Cards />
@@ -29,17 +29,11 @@ export default function Home() {
       >
         <PopularServices />
       </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignContent: "center",
-        }}
-      >
-        <div style={{ width: "30vw", margin: "5vw" }}>
+      <div className="popularServicesContainer">
+        <div className="subPopularContainers">
           <RecentUpdates />
         </div>
-        <div style={{ width: "30vw", margin: "5vw" }}>
+        <div className="subPopularContainers">
           <Calendar />
         </div>
       </div>

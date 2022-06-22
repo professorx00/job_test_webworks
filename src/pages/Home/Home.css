@@ -1,3 +1,6 @@
+.homeContainer{
+    position: relative;
+}
 .searchContainer{
     width:100vw;
     position: relative;
@@ -40,3 +43,77 @@
 .searchInput:focus {
   outline: none;
 }
+.popularServicesContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.subPopularContainers{
+    width: 30vw; 
+    margin: 5vw;
+}
+
+@media only screen and (max-width: 400px) {
+.homeContainer{
+    position: relative;
+    width: 100%;
+}
+.searchContainer{
+    width:100%;
+    position: relative;
+    padding:0;
+    margin:0;
+}
+.searchInputContainer{
+    width:100%;
+
+}
+.searchBox{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../../public/capitol.jpg);
+}
+.statement{
+    font-family: 'roboto slab';
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 1;
+    padding: 1em;
+    color: white;
+    text-align: center;
+}
+.searchInput{
+    height: 55px;
+    width: 95%;
+    font-family: 'Noto Serif';
+    font-style: italic;
+    font-size: 16px;
+    line-height: 118%;
+    letter-spacing: 0.05em;
+    color: #757575;
+    padding-left: 1em;
+    margin-right: 1em;
+}
+.searchInput:focus {
+  outline: none;
+}
+.popularServicesContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width:100%;
+    flex-direction: column;
+}
+.subPopularContainers{
+    width: 100vw; 
+    margin: 5vw;
+}
+}
+@media only screen and (min-width: 400px) {}
+@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1200px) {}
