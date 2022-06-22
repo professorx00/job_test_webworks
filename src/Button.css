@@ -33,6 +33,7 @@
     background-color: #0074c1;
     border: 1px solid white;
     text-transform: uppercase;
+    max-width: 150px;
 }
 .button-closed:hover{
     color: white;

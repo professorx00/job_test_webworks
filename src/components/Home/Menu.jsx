@@ -40,12 +40,12 @@ export default function Menu() {
           </li>
         </ul>
       </div>
-      {innerWidth > 400 ? (
+      {innerWidth > 746 ? (
         <div className="OptionsContainer">
           <MenuOptions />
         </div>
       ) : null}
-      {innerWidth <= 400 ? (
+      {innerWidth <= 746 ? (
         <div className="OpitionsContainerMobile">
           <MenuOptionsMobile />
         </div>

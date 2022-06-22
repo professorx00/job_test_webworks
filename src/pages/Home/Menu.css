@@ -112,7 +112,226 @@ a{
     background-color: white;
 }
 }
-@media only screen and (min-width: 576px) {}
-@media only screen and (min-width: 768px) {}
-@media only screen and (min-width: 992px) {}
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 400px) {
+       .menuContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position:absolute;
+    z-index: 99;
+;
+}
+.menuList{
+    display: flex;
+    flex-direction: column;
+    background-color: #e1e5ea ;
+    align-items: center;
+    padding-right: 1.5em;
+}
+a{
+    text-decoration: none;
+}
+.menuUl{
+    list-style: none;
+    text-align: center;
+}
+.mobileUl{
+    list-style: none;
+}
+.menuLinkStyle1{
+     font-family: 'open sans';
+    font-weight:700;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 0.08em;
+}
+.optionLinkStyle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+    margin: .25em;
+}
+.OptionsContainer{
+    width:100%;
+}
+.optionsRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: white;
+}
+.optionsColumn{
+    display: flex;
+    flex-direction: column;
+}
+.OpitionsContainerMobile{
+    width:100%;
+    background-color: white;
+}
+}
+@media only screen and (min-width: 768px) {
+    .menuContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position:absolute;
+    z-index: 99;
+;
+}
+.menuList{
+    display: flex;
+    flex-direction: column;
+    background-color: #e1e5ea ;
+    align-items: center;
+    padding-right: 1.5em;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+.menuLinkStyle1{
+     font-family: 'open sans';
+    font-weight:700;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 0.08em;
+}
+.optionLinkStyle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+    margin: .25em;
+}
+.OptionsContainer{
+    width:100%
+}
+.optionsRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: white;
+}
+.optionsColumn{
+    display: flex;
+    flex-direction: column;
+} 
+}
+@media only screen and (min-width: 992px) {
+    .menuContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position:absolute;
+    z-index: 99;
+;
+}
+.menuList{
+    display: flex;
+    flex-direction: column;
+    background-color: #e1e5ea ;
+    align-items: center;
+    padding-right: 1.5em;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+.menuLinkStyle1{
+     font-family: 'open sans';
+    font-weight:700;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 0.08em;
+}
+.optionLinkStyle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+    margin: .25em;
+}
+.OptionsContainer{
+    width:100%
+}
+.optionsRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: white;
+}
+.optionsColumn{
+    display: flex;
+    flex-direction: column;
+} 
+}
+@media only screen and (min-width: 1200px) {
+    .menuContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position:absolute;
+    z-index: 99;
+;
+}
+.menuList{
+    display: flex;
+    flex-direction: column;
+    background-color: #e1e5ea ;
+    align-items: center;
+    padding-right: 1.5em;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+.menuLinkStyle1{
+     font-family: 'open sans';
+    font-weight:700;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 0.08em;
+}
+.optionLinkStyle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+    margin: .25em;
+}
+.OptionsContainer{
+    width:100%
+}
+.optionsRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: white;
+}
+.optionsColumn{
+    display: flex;
+    flex-direction: column;
+} 
+}

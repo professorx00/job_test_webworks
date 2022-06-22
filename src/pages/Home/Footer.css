@@ -215,7 +215,434 @@ h3{
     margin-top: 2em;
 }
 }
-@media only screen and (min-width: 576px) {}
-@media only screen and (min-width: 768px) {}
-@media only screen and (min-width: 992px) {}
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 576px) {
+       .Footer{
+    background-color: #1B3A61;
+    position: absolute;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.logoContianer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 2em;
+    height: 100%;
+}
+h4{
+    color: white;
+    margin: .5em;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 0px;
+    text-align: start;
+}
+.footLink{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #FAFBFB;
+    text-decoration: none;
+}
+.footLinkContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+}
+.addressContainer{
+    margin-top: 3em;
+    margin-left: 1em;
+}
+.titleAddress{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0px;
+    letter-spacing: 0.14em;
+    color: #CCCCCC;
+    word-wrap: normal;
+}
+h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    color: #FAFBFB;
+    margin: 1em
+}
+.top{
+    position:absolute;
+    top: -70px;
+    right:0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.topLabel{
+    color: black;
+    margin: 1em;
+}
+.favIcon{
+    padding: 1em;
+    background-color: #93a4bd;
+    border-radius: 50%;
+}
+.favIcon:hover{
+    padding: 1em;
+    background-color: #3068Ad;
+    border-radius: 50%;
+}
+.favIcon:active{
+    padding: 1em;
+    background-color: #225089;
+    border-radius: 50%;
+}
+.arrow{
+    color: #0074c1; 
+}
+.arrow:hover{
+    color: white; 
+}
+.arrow:active{
+    color: white; 
+}
+.footerLogoImg{
+    margin: 1em;
+    margin-top: 2em;
+}
+}
+@media only screen and (min-width: 768px) {
+    .Footer{
+    background-color: #1B3A61;
+    position: absolute;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logoContianer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 2em;
+    height: 100%;
+}
+h4{
+    color: white;
+    margin: .5em;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 0px;
+    letter-spacing: -0.04em;
+    text-align: start;
+}
+.footLink{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #FAFBFB;
+    text-decoration: none;
+}
+.footLinkContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+}
+.addressContainer{
+    margin-top: 3em;
+}
+.titleAddress{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0px;
+    letter-spacing: 0.14em;
+    color: #CCCCCC;
+}
+h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    color: #FAFBFB;
+}
+.top{
+    position:absolute;
+    top: -100px;
+    right:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.topLabel{
+    color: black;
+    margin: 1em;
+}
+.favIcon{
+    padding: 1em;
+    background-color: #93a4bd;
+    border-radius: 50%;
+}
+.favIcon:hover{
+    padding: 1em;
+    background-color: #3068Ad;
+    border-radius: 50%;
+}
+.favIcon:active{
+    padding: 1em;
+    background-color: #225089;
+    border-radius: 50%;
+}
+.arrow{
+    color: #0074c1; 
+}
+.arrow:hover{
+    color: white; 
+}
+.arrow:active{
+    color: white; 
+}
+.footerLogoImg{
+    margin: 1em;
+    margin-top: 2em;
+}
+}
+@media only screen and (min-width: 992px) {
+     .Footer{
+    background-color: #1B3A61;
+    position: absolute;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logoContianer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 2em;
+    height: 100%;
+}
+h4{
+    color: white;
+    margin: .5em;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 0px;
+    letter-spacing: -0.04em;
+    text-align: start;
+}
+.footLink{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #FAFBFB;
+    text-decoration: none;
+}
+.footLinkContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+}
+.addressContainer{
+    margin-top: 3em;
+}
+.titleAddress{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0px;
+    letter-spacing: 0.14em;
+    color: #CCCCCC;
+}
+h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    color: #FAFBFB;
+}
+.top{
+    position:absolute;
+    top: -100px;
+    right:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.topLabel{
+    color: black;
+    margin: 1em;
+}
+.favIcon{
+    padding: 1em;
+    background-color: #93a4bd;
+    border-radius: 50%;
+}
+.favIcon:hover{
+    padding: 1em;
+    background-color: #3068Ad;
+    border-radius: 50%;
+}
+.favIcon:active{
+    padding: 1em;
+    background-color: #225089;
+    border-radius: 50%;
+}
+.arrow{
+    color: #0074c1; 
+}
+.arrow:hover{
+    color: white; 
+}
+.arrow:active{
+    color: white; 
+}
+.footerLogoImg{
+    margin: 1em;
+    margin-top: 2em;
+}
+}
+@media only screen and (min-width: 1200px) {
+     .Footer{
+    background-color: #1B3A61;
+    position: absolute;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logoContianer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 2em;
+    height: 100%;
+}
+h4{
+    color: white;
+    margin: .5em;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 0px;
+    letter-spacing: -0.04em;
+    text-align: start;
+}
+.footLink{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #FAFBFB;
+    text-decoration: none;
+}
+.footLinkContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+}
+.addressContainer{
+    margin-top: 3em;
+}
+.titleAddress{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0px;
+    letter-spacing: 0.14em;
+    color: #CCCCCC;
+}
+h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    color: #FAFBFB;
+}
+.top{
+    position:absolute;
+    top: -100px;
+    right:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.topLabel{
+    color: black;
+    margin: 1em;
+}
+.favIcon{
+    padding: 1em;
+    background-color: #93a4bd;
+    border-radius: 50%;
+}
+.favIcon:hover{
+    padding: 1em;
+    background-color: #3068Ad;
+    border-radius: 50%;
+}
+.favIcon:active{
+    padding: 1em;
+    background-color: #225089;
+    border-radius: 50%;
+}
+.arrow{
+    color: #0074c1; 
+}
+.arrow:hover{
+    color: white; 
+}
+.arrow:active{
+    color: white; 
+}
+.footerLogoImg{
+    margin: 1em;
+    margin-top: 2em;
+}
+}

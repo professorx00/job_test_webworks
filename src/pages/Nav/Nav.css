@@ -346,26 +346,28 @@
 }
 }
 @media only screen and (min-width: 500px) {
-    .navContainer{
+  .navContainer{
     background-color: white;
-    min-height: 150px;
-    display: flex;
+    width: 100%;
+    margin:0;
+    padding:0;
     flex-direction: row;
-    justify-content: space-between;
 }
 .rightSideNav{
     background-color: white;
-    min-height: 150px;
     display: flex;
     flex-direction: row;
+    width: 100%;
+    margin:0;
+    padding:0;
 }
 .leftSideNav{
     background-color: white;
-    min-height: 150px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-right: 15px
+    margin-right: 0px;
+    display: none;
 }
 .menuButton{
     background-color: #306BAD;
@@ -373,7 +375,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:1em;
+    padding:0;
     font-family:'roboto condensed';
     color: white;
 }
@@ -389,15 +391,15 @@
     align-items: center;
 }
 .logo{
-    height: 110px;
+    height: 2em;
     margin-left: 1em;
 }
 .siteName{
     font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: 600;
-    font-size: 26px;
-    line-height: 22px;
+    font-size: .5em;
+    line-height: 1;
     letter-spacing: 0.015em;
     color: #1B3A61;
     margin-bottom: .5em;
@@ -406,8 +408,8 @@
     font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
-    line-height: 22px;
+    font-size: .5em;
+    line-height: 1;
     display: flex;
     align-items: center;
     letter-spacing: -0.01em;
@@ -523,7 +525,7 @@
     background-color: white;
     min-height: 150px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
 .rightSideNav{
@@ -531,6 +533,7 @@
     min-height: 150px;
     display: flex;
     flex-direction: row;
+    justify-content: left;
 }
 .leftSideNav{
     background-color: white;
@@ -538,7 +541,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-right: 15px
+    justify-content: space-around;
+    margin-right: 15px;
+    width: 100%;
 }
 .menuButton{
     background-color: #306BAD;
@@ -696,7 +701,7 @@
     background-color: white;
     min-height: 150px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
 .rightSideNav{
