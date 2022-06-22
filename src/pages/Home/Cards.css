@@ -7,8 +7,11 @@
 
 }
 .cards{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     height: 12%;
-    width: 12%;
+    width: 15%;
     background-color: white;
     padding: 3em;
     display: flex;
@@ -17,7 +20,14 @@
     align-items: center;
     margin: 2em;
     cursor: pointer;
+    border: 2px solid white;
 
+}
+.cards:hover{
+        box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 2px solid #225089;
 }
 .cardIcons{
     height: 60px
@@ -33,4 +43,24 @@
     letter-spacing: -0.02em;
     text-transform: capitalize;
     margin-top: 1rem;
+}
+.cancelledEvent{
+    color:#CCCCCC;
+    background-color: #DB222C ;
+    border-radius: 3px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:.25em;
+}
+.updatedEvent{
+    color:#302F30;
+    background-color: #DBBA46 ;
+    border-radius: 3px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:.25em;
 }

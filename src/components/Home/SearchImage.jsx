@@ -5,7 +5,7 @@ import Button from "../Button";
 export default function SearchImage() {
   return (
     <div className="searchContainer">
-      <img src="/capitol.jpg" alt="capitol" width="100%" height="50%" />
+      <img src="/capitol.jpg" alt="capitol" width="99.1%" height="50%" />
       <div className="searchBox">
         <p className="statement">
           Providing independent research, analysis, and

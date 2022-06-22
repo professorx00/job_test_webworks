@@ -87,7 +87,17 @@
     justify-content: center;
     align-items: center;
     border: solid 1px #306BAD;
-    padding: 10px;
+    padding: .25em;
+    width: 63px;
+    height: 63px;
+}
+.searchButtonAlt{
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #306BAD;
+    background-color:#306BAD ;
+    padding: .25em;
     width: 63px;
     height: 63px;
 }

@@ -57,7 +57,7 @@ export default function RecentUpdates() {
     };
 
     getData();
-  });
+  }, []);
   return (
     <div>
       <HeaderStyleTwo label="Recent Updates" />

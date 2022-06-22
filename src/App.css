@@ -39,7 +39,16 @@
   font-family: 'open sans';
   font-weight:700;
   font-size: 24px;
-  color: #000000
+  color: #1b3a61
+}
+.headerStyle5HR{
+  background-color: #8c6910;
+  height: 4px;
+  width: 20%;
+}
+.headerStyle5Container{
+  width: 100%;
+  margin-bottom: 2em;
 }
 .cardHeader{
   font-family: 'open sans';
