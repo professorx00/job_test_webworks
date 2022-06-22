@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    position:absolute;
+    z-index: 99;
 ;
 }
 .menuList{
@@ -10,7 +12,6 @@
     background-color: #e1e5ea ;
     align-items: center;
     padding-right: 1.5em;
-
 }
 a{
     text-decoration: none;
@@ -43,6 +44,7 @@ ul{
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
+    background-color: white;
 }
 .optionsColumn{
     display: flex;

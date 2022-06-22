@@ -6,6 +6,8 @@
     color: #0074c1;
     background-color: white;
     border: 1px solid #0074c1;
+    padding: 10px;
+    text-transform: uppercase;
 }
 .button-open:hover{
     color: white;
@@ -29,7 +31,8 @@
     padding: 10px;
     color: white;
     background-color: #0074c1;
-    border: 1px solid #0074c1;
+    border: 1px solid white;
+    text-transform: uppercase;
 }
 .button-closed:hover{
     color: white;

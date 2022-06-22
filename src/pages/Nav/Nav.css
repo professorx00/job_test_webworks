@@ -82,6 +82,24 @@
     align-items: flex-start;
     margin:1em
 }
+.searchInputNav{
+    height: 45px;
+    width: 65%;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 0px;
+    letter-spacing: -0.03em;
+    color: #757575;
+    padding-left: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+    
+}
+.SearchButtonNav{
+    height: 66px;
+}
 .searchButton{
     display: flex;
     justify-content: center;
@@ -90,9 +108,18 @@
     padding: .25em;
     width: 63px;
     height: 63px;
+    position: relative;
+
+
+}
+.iconButton{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63px;
 }
 .searchButtonAlt{
-       display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     border: solid 1px #306BAD;
@@ -100,6 +127,7 @@
     padding: .25em;
     width: 63px;
     height: 63px;
+    position: relative;
 }
 .navBar {
     display: flex;
@@ -109,4 +137,45 @@
 .navButton{
     text-decoration: none;
     margin: 2em;
+}
+.customPopover{
+    position: absolute; 
+    bottom: -100px;
+    left: -528px; 
+    z-index: 99;
+    width: 600px;
+    height:100px;
+    background-color: #306BAD ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 15%;
+    height: 35px;
+    color: white;
+    background-color: #0074c1;
+    border: 1px solid white;
+    text-transform: uppercase;
+}
+.sbutton:hover{
+    color: white;
+    background-color: #225089;
+    border: 1px solid #225089;
+}
+.sbutton:active{
+    color: white;
+    background-color: #1b3a61;
+    border: 1px solid #1b3a61;
+}
+.sbutton:disabled{
+    color: white;
+    background-color: #e1e5ea;
+    border: 1px solid #e1e5ea;
 }

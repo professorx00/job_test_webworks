@@ -16,7 +16,7 @@ import Footer from "../../components/Home/Footer";
 export default function Home() {
   const { menu } = useSelector((state) => state.ui);
   return (
-    <div>
+    <div style={{ position: "relative" }}>
       {menu ? <Menu /> : null}
       <SearchImage />
       <Cards />
