@@ -171,7 +171,8 @@ h3{
     font-size: 20px;
     letter-spacing: -0.02em;
     color: #FAFBFB;
-    margin: 1em
+    margin-top: 1em;
+    margin-left: 0;
 }
 .top{
     position:absolute;
@@ -281,7 +282,8 @@ h3{
     font-size: 20px;
     letter-spacing: -0.02em;
     color: #FAFBFB;
-    margin: 1em
+    margin-top: 1em;
+    margin-left: 0;
 }
 .top{
     position:absolute;
@@ -389,6 +391,8 @@ h3{
     font-size: 20px;
     letter-spacing: -0.02em;
     color: #FAFBFB;
+    margin-top: 1em;
+    margin-left: 0;
 }
 .top{
     position:absolute;
@@ -496,6 +500,8 @@ h3{
     font-size: 20px;
     letter-spacing: -0.02em;
     color: #FAFBFB;
+    margin-top: 1em;
+    margin-left: 0;
 }
 .top{
     position:absolute;
@@ -603,6 +609,8 @@ h3{
     font-size: 20px;
     letter-spacing: -0.02em;
     color: #FAFBFB;
+    margin-top: 1em;
+    margin-left: 0;
 }
 .top{
     position:absolute;
