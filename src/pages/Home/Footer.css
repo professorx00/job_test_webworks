@@ -55,7 +55,7 @@ h4{
     letter-spacing: 0.14em;
     color: #CCCCCC;
 }
-h3{
+.address{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -106,6 +106,10 @@ h3{
 } */
 
 @media only screen and (max-width: 400px) {
+    .mainAddressContainer{
+    margin-bottom: 3em;
+    margin-top: .5em;
+}
     .Footer{
     background-color: #1B3A61;
     position: absolute;
@@ -130,7 +134,6 @@ h4{
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
-    line-height: 0px;
     text-align: start;
 }
 .footLink{
@@ -164,7 +167,7 @@ h4{
     color: #CCCCCC;
     word-wrap: normal;
 }
-h3{
+.address{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -216,7 +219,11 @@ h3{
     margin-top: 2em;
 }
 }
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 400px) {
+    .mainAddressContainer{
+    margin-bottom: 3em;
+    margin-top: .5em;
+}
        .Footer{
     background-color: #1B3A61;
     position: absolute;
@@ -241,7 +248,6 @@ h4{
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
-    line-height: 0px;
     text-align: start;
 }
 .footLink{
@@ -275,15 +281,16 @@ h4{
     color: #CCCCCC;
     word-wrap: normal;
 }
-h3{
+.address{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     letter-spacing: -0.02em;
     color: #FAFBFB;
-    margin-top: 1em;
+    margin-bottom: 1em;
     margin-left: 0;
+
 }
 .top{
     position:absolute;
@@ -328,6 +335,10 @@ h3{
 }
 }
 @media only screen and (min-width: 768px) {
+    .mainAddressContainer{
+    margin-bottom: 3em;
+    margin-top: .5em;
+}
     .Footer{
     background-color: #1B3A61;
     position: absolute;
@@ -336,7 +347,7 @@ h3{
     flex-direction: row;
     justify-content: space-around;
 }
-.logoContianer{
+.logoContainer{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -351,7 +362,6 @@ h4{
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
-    line-height: 0px;
     letter-spacing: -0.04em;
     text-align: start;
 }
@@ -384,7 +394,7 @@ h4{
     letter-spacing: 0.14em;
     color: #CCCCCC;
 }
-h3{
+.address{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -437,6 +447,10 @@ h3{
 }
 }
 @media only screen and (min-width: 992px) {
+    .mainAddressContainer{
+    margin-bottom: 3em;
+    margin-top: .5em;
+}
      .Footer{
     background-color: #1B3A61;
     position: absolute;
@@ -445,7 +459,7 @@ h3{
     flex-direction: row;
     justify-content: space-around;
 }
-.logoContianer{
+.logoContainer{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -460,7 +474,6 @@ h4{
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
-    line-height: 0px;
     letter-spacing: -0.04em;
     text-align: start;
 }
@@ -489,19 +502,19 @@ h4{
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 0px;
     letter-spacing: 0.14em;
     color: #CCCCCC;
 }
-h3{
+.address{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     letter-spacing: -0.02em;
     color: #FAFBFB;
-    margin-top: 1em;
+    margin-bottom: 1em;
     margin-left: 0;
+
 }
 .top{
     position:absolute;
@@ -554,7 +567,7 @@ h3{
     flex-direction: row;
     justify-content: space-around;
 }
-.logoContianer{
+.logoContainer{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -569,7 +582,6 @@ h4{
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
-    line-height: 0px;
     letter-spacing: -0.04em;
     text-align: start;
 }
@@ -602,15 +614,17 @@ h4{
     letter-spacing: 0.14em;
     color: #CCCCCC;
 }
-h3{
+.address{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     letter-spacing: -0.02em;
     color: #FAFBFB;
-    margin-top: 1em;
-    margin-left: 0;
+}
+.mainAddressContainer{
+    margin-bottom: 3em;
+    margin-top: .5em;
 }
 .top{
     position:absolute;

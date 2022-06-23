@@ -3,14 +3,14 @@ import CalendarCard from "./CalendarCard";
 import Button from "../Button";
 import HeaderStyleTwo from "../App/HeaderStyleTwo";
 
-const fakeFetchcall = () => {
+const fakeFetchCall = () => {
   return [
     {
       id: 1,
       eventName: "Board of Economic Advisors Meeting",
       eventDate: "2019-11-22T18:30:44.000Z",
       location: "Room 417, Bowers Conference Room, Rembert Dennis Building",
-      contact: "(803)7342265",
+      contact: "(803)-7342265",
       flag: "Updated",
     },
     {
@@ -18,7 +18,7 @@ const fakeFetchcall = () => {
       eventName: "Board of Economic Advisors Meeting",
       eventDate: "2019-11-23T18:30:44.000Z",
       location: "Room 417, Bowers Conference Room, Rembert Dennis Building",
-      contact: "(803)7342265",
+      contact: "(803)-7342265",
       flag: "Cancelled",
     },
     {
@@ -26,14 +26,14 @@ const fakeFetchcall = () => {
       eventName: "Board of Economic Advisors Meeting",
       eventDate: "2019-11-25T18:30:44.000Z",
       location: "Room 417, Bowers Conference Room, Rembert Dennis Building",
-      contact: "(803)7342265",
+      contact: "(803)-7342265",
     },
     {
       id: 4,
       eventName: "Board of Economic Advisors Meeting",
       eventDate: "2019-11-28T18:30:44.000Z",
       location: "Room 417, Bowers Conference Room, Rembert Dennis Building",
-      contact: "(803)7342265",
+      contact: "(803)-7342265",
     },
   ];
 };
@@ -42,7 +42,7 @@ export default function Calendar() {
   const [calendarData, setCalendarData] = useState([]);
 
   useEffect(() => {
-    setCalendarData(fakeFetchcall());
+    setCalendarData(fakeFetchCall());
   }, []);
 
   return (

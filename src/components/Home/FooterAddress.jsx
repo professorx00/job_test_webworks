@@ -5,29 +5,39 @@ export default function FooterAddress() {
     <div className="addressContainer">
       <div>
         <span className="titleAddress">Main Office</span>
-        <h3>
+      </div>
+      <div className="mainAddressContainer">
+        <span className="address">
           1000 Assembly St, Rembert Dennis Building, suite 421
           <br />
           Columbia, SC 29201
-        </h3>
+        </span>
       </div>
 
       <div>
-        <span className="titleAddress">Geodetic Survery Section</span>
-        <h3>
+        <span className="address" className="titleAddress">
+          Geodetic Survey Section
+        </span>
+      </div>
+      <div className="mainAddressContainer">
+        <span className="address">
           5 Geology Rd
           <br />
           Columbia, SC 29212
-        </h3>
+        </span>
       </div>
 
       <div>
-        <span className="titleAddress">Health and Demographics Division</span>
-        <h3>
+        <span className="address" className="titleAddress">
+          Health and Demographics Division
+        </span>
+      </div>
+      <div className="mainAddressContainer">
+        <span className="address">
           1000 Assembly St, Rembert Dennis Building, suite 240
           <br />
           Columbia, SC 29201
-        </h3>
+        </span>
       </div>
     </div>
   );

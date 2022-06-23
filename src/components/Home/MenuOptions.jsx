@@ -16,7 +16,7 @@ export default function MenuOptions() {
           Healthcare
         </a>
         <a href="/" className="optionLinkStyle">
-          Local Governement
+          Local Government
         </a>
         <a href="/" className="optionLinkStyle">
           Population and Demographics

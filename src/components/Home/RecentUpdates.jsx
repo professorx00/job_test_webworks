@@ -15,7 +15,7 @@ const fakeAxiosCall = () => {
       },
       {
         id: 2,
-        title: "Transportaton Network Carrier Maps",
+        title: "Transportation Network Carrier Maps",
         published: "2020-01-02T21:36:44.000Z",
         link: "http://www.google.com",
         flag: "new",
@@ -23,7 +23,7 @@ const fakeAxiosCall = () => {
       {
         id: 3,
         title:
-          "BEA Long-Range General Fund Revenue Plam fpr FY2019-20 ot FY 2022-23",
+          "BEA Long-Range General Fund Revenue Plan fpr FY2019-20 ot FY 2022-23",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus vitae mauris quis luctus. Etiam pharetra est dui, vel molestie arcu maximus quis. Pellentesque magna nunc, vestibulum et purus non,",
         published: "2019-12-16T21:36:44.000Z",
@@ -39,7 +39,7 @@ const fakeAxiosCall = () => {
       },
       {
         id: 5,
-        title: "Novemember 2019 General Fund Revenue Digest",
+        title: "November 2019 General Fund Revenue Digest",
         published: "2019-12-13T21:36:44.000Z",
         link: "http://www.google.com",
         flag: "new",

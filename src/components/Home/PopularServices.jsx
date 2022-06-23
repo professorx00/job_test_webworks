@@ -13,7 +13,7 @@ export default function PopularServices() {
             Employer Contribution trends
           </a>
           <a href="/" className="linkStyle1 links">
-            Appropiation Bills and Acts
+            Appropriation Bills and Acts
           </a>
         </div>
         <div className="column">

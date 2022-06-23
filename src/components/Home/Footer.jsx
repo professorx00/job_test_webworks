@@ -10,9 +10,9 @@ const handleClick = () => {
 export default function Footer() {
   return (
     <div className="Footer">
-      <div className="logoContianer">
+      <div className="logoContainer">
         <h4>South Carolina</h4>
-        <h4>Revenu and Fiscal Affairs Office</h4>
+        <h4>Revenue and Fiscal Affairs Office</h4>
         <img
           src="Group 262.png"
           width="50%"

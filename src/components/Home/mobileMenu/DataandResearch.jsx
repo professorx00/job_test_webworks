@@ -20,7 +20,7 @@ export default function DataandResearch() {
       </li>
       <li>
         <a href="/" className="optionLinkStyle">
-          Local Governement
+          Local Government
         </a>
       </li>
       <li>
