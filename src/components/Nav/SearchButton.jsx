@@ -4,9 +4,6 @@ import SearchIcon from "../../asset/SearchIcon.svg";
 import SearchIconAlt from "../../asset/SearchIconAlt.svg";
 import { useDispatch, useSelector } from "react-redux";
 import { openSearch } from "../../store/uiSlice";
-import Box from "@mui/material/Box";
-import Popper from "@mui/material/Popper";
-import Button from "../Button";
 
 export default function SearchButton() {
   const [anchorEl, setAnchorEl] = useState(null);

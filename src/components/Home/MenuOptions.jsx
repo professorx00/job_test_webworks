@@ -1,6 +1,5 @@
 import React from "react";
 import HeaderStyleFive from "../App/HeaderStyleFive";
-import HeaderStyleTwo from "../App/HeaderStyleTwo";
 
 export default function MenuOptions() {
   return (

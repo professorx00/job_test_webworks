@@ -4,7 +4,7 @@ import MenuOptionsMobile from "./MenuOptionsMobile";
 import { useWindowSize } from "rooks";
 
 export default function Menu() {
-  const { innerWidth, innerHeight, outerHeight, outerWidth } = useWindowSize();
+  const { innerWidth } = useWindowSize();
   return (
     <div className="menuContainer">
       <div className="menuList">
