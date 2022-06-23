@@ -15,9 +15,7 @@ export default function FooterAddress() {
       </div>
 
       <div>
-        <span className="address" className="titleAddress">
-          Geodetic Survey Section
-        </span>
+        <span className="titleAddress">Geodetic Survey Section</span>
       </div>
       <div className="mainAddressContainer">
         <span className="address">
@@ -28,9 +26,7 @@ export default function FooterAddress() {
       </div>
 
       <div>
-        <span className="address" className="titleAddress">
-          Health and Demographics Division
-        </span>
+        <span className="titleAddress">Health and Demographics Division</span>
       </div>
       <div className="mainAddressContainer">
         <span className="address">
